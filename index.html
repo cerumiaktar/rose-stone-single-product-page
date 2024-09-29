@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Rose Single Product Page</title>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="bg-slate-100">
+    <header>
+        <!-- Navbar -->
+        <section class="container mx-auto flex justify-between items-center gap-5">
+            <div class="w-3/12">
+                <img class="w-60" src="./images/rose-stone-logo.png" alt="">
+            </div>
+            <div class="w-6/12">
+                <form action="" class="flex justify-center items-center relative">
+                    <input type="text" id="searchInput" placeholder="Search Product Name....."
+                        class="border p-2 w-full search-input">
+                    <button class="absolute inset-y-0 right-0 pr-6">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="w-3/12 flex justify-center items-center gap-4">
+                <div>
+                    <i class="fa-solid fa-basket-shopping p-3 rounded-full bg-[#E3E1E7] font-bold"></i>
+                </div>
+                <div>
+                    <h3>Track Price</h3>
+                    <p>0.00</p>
+                </div>
+            </div>
+        </section>
+        <!-- Header lower Section -->
+        <section class="bg-[#042C44] text-white mt-4 w-full">
+            <div class="container mx-auto flex justify-between items-center p-2">
+                <h2>NEW IN</h2>
+                <div class="flex justify-center items-center gap-2">
+                    <h2>SUMMER-24</h2>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <h2>SUMMER TRACKSUIT</h2>
+                <h2>HALF SHIRT</h2>
+                <h2>POLO SHIRT</h2>
+                <div class="flex justify-center items-center gap-2">
+                    <h2>SUMMER T-SHIRT</h2>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <h2>TANK TOP</h2>
+                <h2>TROUSER</h2>
+                <h2>SHORTS</h2>
+                <h2>T-SHIRT</h2>
+                <div class="flex justify-center items-center gap-2">
+                    <h2>MEN</h2>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container mx-auto mt-5 mb-14">
+            <div class="flex gap-4">
+                <div class="w-6/12">
+                    <div class="carousel w-full">
+                        <div id="slide1" class="carousel-item relative w-full">
+                            <img src="./images/1.jpg" class="w-full" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide4" class="btn btn-circle">❮</a>
+                                <a href="#slide2" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide2" class="carousel-item relative w-full">
+                            <img src="./images/2.jpg" class="w-full" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide1" class="btn btn-circle">❮</a>
+                                <a href="#slide3" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide3" class="carousel-item relative w-full">
+                            <img src="./images/3.jpg" class="w-full" />
+                            <div
+                                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide2" class="btn btn-circle">❮</a>
+                                <a href="#slide4" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6 mt-3">
+                        <img src="./images/s-1.jpg" alt="">
+                        <img src="./images/s-2.jpg" alt="">
+                        <img src="./images/s-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="w-6/12 bg-white shadow-lg rounded-md">
+                    <div class="p-4">
+                        <h1 class="text-3xl font-medium mb-2">Men Summer Premium Tracksuit (Tank Top & Shorts)-25520T -
+                            25520T</h1>
+                        <div class="flex items-center gap-3 mb-2">
+                            <h1 class="text-2xl font-bold text-red-500">Tk 790</h1>
+                            <p class="line-through">Tk 1,128</p>
+                        </div>
+                        <p mb-2>Product Code:25520T</p>
+                        <p class="text-xl font-semibold">Size</p>
+                        <div class="flex text-base font-medium text-red-600 mb-3">
+                            <div class="border-2 border-[#082C44] p-1 px-4 rounded-l-lg">M</div>
+                            <div class="border-2 border-[#082C44] p-1 px-4">L</div>
+                            <div class="border-2 border-[#082C44] p-1 px-4">XL</div>
+                            <div class="border-2 border-[#082C44] p-1 px-4 rounded-r-lg">XXL</div>
+                        </div>
+                        <div class="flex items-center gap-4 mb-3">
+                            <div
+                                class="flex justify-center items-center bg-[#082C44] p-2 rounded-md gap-2 w-3/6 text-white">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <button>এখনই কিনুন</button>
+                            </div>
+                            <div
+                                class="bg-[#17A2B8] flex justify-center items-center p-2 rounded-md gap-2 w-3/6 text-white">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <button>কাটে যোগ করন</button>
+                            </div>
+                        </div>
+                        <div class="bg-[#082C44] text-white text-center p-2 rounded-md mb-3">
+                            <i class="fa-solid fa-phone"></i>
+                            <button>কল করতে ক্লিক করুন: 09610000383</button>
+                        </div>
+                        <div class="bg-[#0D6EFD] text-white text-center p-2 rounded-md mb-3">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <button>কল করতে ক্লিক করুন: 09610000383</button>
+                        </div>
+                        <div class="mb-2 text-sm">
+                            <div class="flex justify-between items-center border-2 border-gray-200 p-2">
+                                <p>ঢাকার মধ্যে ডেলিভারি চার্জ</p>
+                                <p>৬৫ টাকা</p>
+                            </div>
+                            <div class="flex justify-between items-center border-2 border-gray-200 p-2">
+                                <p>ঢাকার আশেপাশে ডেলিভারি চার্জ</p>
+                                <p>১০০ টাকা</p>
+                            </div>
+                            <div class="flex justify-between items-center border-2 border-gray-200 p-2">
+                                <p>ঢাকার বাহিরে ডেলিভারি চার্জ</p>
+                                <p>১৩০ টাকা</p>
+                            </div>
+                        </div>
+                        <p class="text-xs">ঢাকার বাহিরের অর্ডার এর ক্ষেত্রে ডেলিভারি চার্জ এডভান্স পেমেন্ট করতে হবে।</p>
+                        <div class="flex gap-4 mt-3">
+                            <h1 class="text-lg font-semibold">Tags:</h1>
+                            <p class="bg-[#082C44] py-1 px-2 text-white rounded-md text-xs">NEW IN</p>
+                            <p class="bg-[#082C44] py-1 px-2 text-white rounded-md text-xs">MEN</p>
+                            <p class="bg-[#082C44] py-1 px-2 text-white rounded-md text-xs">SUMMER TRACKSUIT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!-- Product Description -->
+        <section class="container mx-auto mb-9">
+            <div class="bg-white shadow-lg pb-5">
+                <div class="border-b-2 flex gap-8 p-2">
+                    <h1 class="border-r-2 px-6">পণ্যের বিস্তারিত</h1>
+                    <h1>ডেলিভারি এবং রিটার্ন পলিসি</h1>
+                </div>
+                <div class="pl-4">
+                    <h1 class="text-4xl mt-4 mb-2">Summer Men Tracksuit</h1>
+                    <ul class="list-disc pl-10">
+                        <li>Product Type: Tank Top</li>
+                        <li>Band Name : Stone Rose</li>
+                        <li>Fabric : 100% Organic Jersey Mesh Fabric</li>
+                        <li>Type : Round Neck</li>
+                        <li>GSM: 160± GSM Light Weight</li>
+                        <li>Men’s Tank Top Size Measurement</li>
+                        <li>M- Long-26 x Chest-36</li>
+                        <li>L- Long-27 x Chest-38</li>
+                        <li>XL- Long-28 x Chest-40</li>
+                        <li>XXL- Long-29 x Chest-42</li>
+                        <li>Product Type: Shorts</li>
+                        <li>Material: China PP Fabric</li>
+                        <li>Comfortable Casual Wear</li>
+                        <li>Wash Care : Machine Wash</li>
+                        <li>(220± GSM)</li>
+                        <li>Collection for Men</li>
+                        <li>Styling & Slim Fit</li>
+                        <li>Color: As given picture</li>
+                        <li>M- Waist-28-30” x Long- 20”</li>
+                        <li>L- Waist-30-32” x Long- 21”</li>
+                        <li>XL- Waist-32-34” x Long-22”</li>
+                        <li>XXL- Waist-34-36” x Long- 23</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Related Product -->
+        <section class="container mx-auto mb-9">
+            <div class="flex justify-between items-center gap-5 mb-9">
+                <!-- Product 1 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-1.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-2.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product 3 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-3.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-4 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-4.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-5 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-5.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-6 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-6.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+
+            </div>
+            <div class="flex justify-between items-center gap-5 mb-9">
+                <!-- Product 7 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-7.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product 8 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-8.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product 9 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-9.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-10 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-10.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-11 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-11.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-12 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-12.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+
+            </div>
+            <div class="flex justify-between items-center gap-5 mb-9">
+                <!-- Product 13 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-13.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product 14 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-14.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product 15 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-15.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-16 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-16.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-17 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-17.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+                <!-- Product-18 -->
+                <div class="bg-white shadow-md rounded-sm relative">
+                    <div>
+                        <img src="./images/p-18.jpg" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h1>Premium Shorts for Men-414SP - 414SP</h1>
+                        <div class="flex justify-center items-center gap-2 mt-2 mb-2">
+                            <p class="font-bold">Tk 420</p>
+                            <p class="line-through">Tk 671</p>
+                        </div>
+                        <button class=" bg-[#082C44] text-white px-14 py-1 rounded-md">অর্ডার করুন</button>
+                    </div>
+                    <p class="absolute left-1 top-1 bg-red-600 px-2 rounded-md text-white">35%</p>
+                </div>
+            </div>
+        </section>
+        <!-- Footer Upper Section -->
+        <section class="bg-[#EEFDFF]">
+            <div class="container mx-auto flex justify-between items-center py-14">
+                <div class="flex justify-center items-center gap-2">
+                    <div>
+                        <i
+                            class="fa-solid fa-thumbs-up p-2 border-double border-4 rounded-full border-[#082C44] text-[#082C44] bg-white"></i>
+                    </div>
+                    <div>
+                        <p>হাই-কোয়ালিটি পণ্য</p>
+                        <p>Enjoy top quality items for less</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-2">
+                    <div>
+                        <i
+                            class="fa-solid fa-headset p-2 border-double border-4 rounded-full border-[#082C44] text-[#082C44] bg-white"></i>
+                    </div>
+                    <div>
+                        <p>24/7 লাইভ চ্যাট</p>
+                        <p>Get instant assistance whenever you need it</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-2">
+                    <div>
+                        <i
+                            class="fa-solid fa-truck-fast p-2 border-double border-4 rounded-full border-[#082C44] text-[#082C44] bg-white"></i>
+                    </div>
+                    <div>
+                        <p>এক্সপ্রেস শিপিং</p>
+                        <p>Fast & reliable delivery options</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-2">
+                    <div>
+                        <i
+                            class="fa-solid fa-lock p-2 border-double border-4 rounded-full border-[#082C44] text-[#082C44] bg-white"></i>
+                    </div>
+                    <div>
+                        <p>সিকিউর পেমেন্ট</p>
+                        <p>Multiple safe payment methods</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container mx-auto flex justify-between pt-9 pb-9">
+            <div class="w-4/12">
+                <img class="w-60 mb-4" src="./images/rose-stone-logo.png" alt="">
+                <p>Stone Rose এ আপনাকে স্বাগতম । স্টোন রোজ বাংলাদেশের একটি বিশ্বস্ত ব্র্যান্ড । সারাদেশে ক্যাশ অন
+                    ডেলিভারি
+                    (৪৮ থেকে ৭২ ঘণ্টার মধ্যে নিশ্চিত ডেলিভারি) হটলাইনঃ 09610000383</p>
+            </div>
+            <!-- Contact Us Section -->
+            <div>
+                <h1 class="text-2xl font-semibold mb-3">Contact Us</h1>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Info@stonerose.fashion</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>09610000383</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Mohammadpur Dhaka</p>
+                </div>
+            </div>
+            <!-- Quick Link Section -->
+            <div>
+                <h1 class="text-2xl font-semibold mb-3">Quick Links</h1>
+                <P>About Us</P>
+                <p>Terms & Condition</p>
+                <p>Return Policy</p>
+                <p>Refund Policy</p>
+            </div>
+            <!-- Follow Us -->
+            <div>
+                <h1 class="text-2xl font-semibold mb-3">Follow Us</h1>
+                <i class=" fa-brands fa-facebook-f px-3 py-2 bg-[#082C44] rounded-full text-white"></i>
+                <i class="fa-brands fa-twitter p-2 bg-[#082C44] rounded-full text-white"></i>
+                <i class="fa-brands fa-linkedin-in p-2 bg-[#082C44] rounded-full text-white"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

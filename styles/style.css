@@ -1,0 +1,19 @@
+.search-input::placeholder {
+    color: #999;
+    font-size: 16px;
+    opacity: 1; /* Ensure the placeholder is visible */
+    animation: typing 3s steps(30, end) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 2px solid transparent; /* Add a cursor-like effect */
+  }
+  
+  @keyframes typing {
+    0% { content: " "; }
+    25% { content: "S"; }
+    50% { content: "Search P"; }
+    75% { content: "Search Product"; }
+    100% { content: "Search Product Name"; }
+  }
+  
